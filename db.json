@@ -1,0 +1,1029 @@
+{
+  "users": [
+    {
+      "username": "Eva",
+      "email": "eva@gmail.com",
+      "password": "123",
+      "status": "Active",
+      "id": 1,
+      "admin": true
+    },
+    {
+      "username": "user-2",
+      "email": "user-2@gmail.com",
+      "password": "123",
+      "status": "Active",
+      "id": 2,
+      "admin": false
+    },
+    {
+      "username": "user-3",
+      "email": "user-3@gmail.com",
+      "password": "123",
+      "status": "Blocked",
+      "id": 3,
+      "admin": false
+    },
+    {
+      "username": "user-4",
+      "email": "user-4@gmail.com",
+      "password": "123",
+      "status": "Active",
+      "admin": false,
+      "id": 4
+    },
+    {
+      "username": "Kate",
+      "email": "Kate@gmail.com",
+      "password": "123",
+      "status": "Active",
+      "admin": true,
+      "id": 5
+    }
+  ],
+  "collections": [
+    {
+      "userId": 1,
+      "name": "Favorite new",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Books",
+      "imgUrl": "https://americanbookco.com/wp-content/uploads/2021/02/stacked-books.jpeg",
+      "stringFields": [
+        "Author"
+      ],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [
+        "year"
+      ],
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "name": "Books for kids",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Books",
+      "imgUrl": "https://hips.hearstapps.com/hmg-prod/images/best-childrens-kids-books-1599680383.jpg?crop=0.6236666666666667xw:1xh;center,top&resize=640:*",
+      "stringFields": [
+        "Author"
+      ],
+      "textareaFields": [],
+      "checkboxFields": [
+        "New"
+      ],
+      "dateFields": [],
+      "numberFields": [
+        "Number of pages"
+      ],
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "name": "Fashion books",
+      "description": "Fashion books description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Books",
+      "imgUrl": "",
+      "stringFields": [
+        "Author"
+      ],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [
+        "Created"
+      ],
+      "numberFields": [],
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "name": "Old coins new",
+      "description": "Old coins description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Coins",
+      "imgUrl": "",
+      "stringFields": [],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [
+        "year"
+      ],
+      "numberFields": [],
+      "id": 5
+    },
+    {
+      "userId": 4,
+      "name": "Marks",
+      "description": "Marks description. On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. ",
+      "category": "Stamps",
+      "imgUrl": "",
+      "stringFields": [
+        "Country"
+      ],
+      "textareaFields": [],
+      "checkboxFields": [
+        "Super old"
+      ],
+      "dateFields": [],
+      "numberFields": [],
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "name": "Many marks",
+      "description": "# A demo of `react-markdown`\n\n`react-markdown` is a markdown component for React.\n* Follows\n* Optionally follows",
+      "category": "Stamps",
+      "imgUrl": "",
+      "stringFields": [],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [],
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "name": "Coins red",
+      "description": "Coins red description",
+      "category": "Coins",
+      "imgUrl": "",
+      "stringFields": [],
+      "textareaFields": [],
+      "checkboxFields": [
+        "Available"
+      ],
+      "dateFields": [],
+      "numberFields": [],
+      "id": 8
+    },
+    {
+      "userId": 5,
+      "name": "Trt coins",
+      "description": "Trt coins description",
+      "category": "Coins",
+      "imgUrl": "https://www.marketplace.org/wp-content/uploads/2022/01/us-coins.jpg?fit=2800%2C1866&w=1200",
+      "stringFields": [],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [
+        "Count"
+      ],
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "name": "School books",
+      "description": "School books description",
+      "category": "Books",
+      "imgUrl": "https://easydrawingguides.com/wp-content/uploads/2018/08/how-to-draw-school-books-featured-image-1200-1024x823.png",
+      "stringFields": [],
+      "textareaFields": [
+        "About book"
+      ],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [],
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "name": "New year postcards",
+      "description": "New year postcards description",
+      "category": "Postcards",
+      "imgUrl": "https://templates.visual-paradigm.com/repository/images/97847367-814c-42f7-a3d4-5f8f459d0780/postcards-design/black-fireworks-photo-happy-new-year-postcard.png",
+      "stringFields": [],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [
+        "Quantity"
+      ],
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "name": "Книги ру",
+      "description": "",
+      "category": "Books",
+      "imgUrl": "",
+      "stringFields": [],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [],
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "name": "Марки ру",
+      "description": "",
+      "category": "Stamps",
+      "imgUrl": "",
+      "stringFields": [],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [],
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "name": "Куклы ру",
+      "description": "",
+      "category": "Dolls",
+      "imgUrl": "",
+      "stringFields": [],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [],
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "name": "Монеты руу",
+      "description": "",
+      "category": "Coins",
+      "imgUrl": "",
+      "stringFields": [],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [],
+      "id": 15
+    }
+  ],
+  "items": [
+    {
+      "name": "Book 12",
+      "tags": [
+        "retro",
+        "rare_books",
+        "postal_history",
+        "bookworm"
+      ],
+      "collectionId": 1,
+      "userId": 1,
+      "stringFields": [
+        {
+          "name": "Author",
+          "value": "St. Gee"
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [
+        {
+          "name": "Super old",
+          "value": true
+        }
+      ],
+      "dateFields": [],
+      "numberFields": [
+        {
+          "name": "year",
+          "value": "1951"
+        }
+      ],
+      "like": {
+        "count": 3,
+        "usersId": [
+          1,
+          4,
+          2
+        ]
+      },
+      "createdDate": "06.03.2019 15:19:24",
+      "id": 1
+    },
+    {
+      "name": "For kids",
+      "tags": [
+        "books_for_kids"
+      ],
+      "collectionId": 2,
+      "userId": 1,
+      "stringFields": [
+        {
+          "name": "Author",
+          "value": "Dc. Rewq"
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [
+        {
+          "name": "New",
+          "value": true
+        }
+      ],
+      "dateFields": [],
+      "numberFields": [
+        {
+          "name": "Number of pages",
+          "value": "30"
+        }
+      ],
+      "like": {
+        "count": 1,
+        "usersId": [
+          1
+        ]
+      },
+      "createdDate": "21.09.2020 15:19:24",
+      "id": 2
+    },
+    {
+      "name": "Mark very new",
+      "tags": [
+        "super_old_marks"
+      ],
+      "collectionId": 6,
+      "userId": 1,
+      "stringFields": [
+        {
+          "name": "Country",
+          "value": "Egypt"
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [
+        {
+          "name": "Super old",
+          "value": true
+        }
+      ],
+      "dateFields": [],
+      "numberFields": [],
+      "like": {
+        "count": 1,
+        "usersId": [
+          1
+        ]
+      },
+      "createdDate": "06.03.2024 20:10:12",
+      "id": 3
+    },
+    {
+      "name": "Fantasy",
+      "tags": [
+        "fantasy_books"
+      ],
+      "collectionId": 1,
+      "userId": 1,
+      "stringFields": [
+        {
+          "name": "Author",
+          "value": "Gt. Ghop"
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [
+        {
+          "name": "year",
+          "value": "2015"
+        }
+      ],
+      "like": {
+        "count": 4,
+        "usersId": [
+          1,
+          5,
+          4,
+          2
+        ]
+      },
+      "createdDate": "06.08.2021 10:19:24",
+      "id": 4
+    },
+    {
+      "name": "Root",
+      "tags": [
+        "date cherry"
+      ],
+      "collectionId": 8,
+      "userId": 5,
+      "stringFields": [],
+      "textareaFields": [],
+      "checkboxFields": [
+        {
+          "name": "Available",
+          "value": true
+        }
+      ],
+      "dateFields": [],
+      "numberFields": [],
+      "like": {
+        "count": 0,
+        "usersId": []
+      },
+      "createdDate": "01.12.2023 15:19:24",
+      "id": 5
+    },
+    {
+      "name": "Cherry",
+      "tags": [
+        "cherry",
+        "banana",
+        "fsss"
+      ],
+      "collectionId": 8,
+      "userId": 5,
+      "stringFields": [],
+      "textareaFields": [],
+      "checkboxFields": [
+        {
+          "name": "Available",
+          "value": true
+        }
+      ],
+      "dateFields": [],
+      "numberFields": [],
+      "like": {
+        "count": 0,
+        "usersId": []
+      },
+      "createdDate": "04.02.2024 15:19:24",
+      "id": 6
+    },
+    {
+      "name": "Italy fashion",
+      "tags": [
+        "books"
+      ],
+      "collectionId": 4,
+      "userId": 1,
+      "stringFields": [
+        {
+          "name": "Author",
+          "value": "Hy. Hiop"
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [
+        {
+          "name": "Created",
+          "value": "2023-07-15"
+        }
+      ],
+      "numberFields": [],
+      "like": {
+        "count": 0,
+        "usersId": []
+      },
+      "createdDate": "06.03.2024 15:19:24",
+      "id": 8
+    },
+    {
+      "name": "Stamps 1",
+      "tags": [],
+      "collectionId": 6,
+      "userId": 5,
+      "stringFields": [
+        {
+          "name": "Country",
+          "value": ""
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [
+        {
+          "name": "Super old",
+          "value": false
+        }
+      ],
+      "dateFields": [],
+      "numberFields": [],
+      "like": {
+        "count": 0,
+        "usersId": []
+      },
+      "createdDate": "08.03.2024 14:00:49",
+      "id": 11
+    },
+    {
+      "name": "Stamps 2",
+      "tags": [],
+      "collectionId": 6,
+      "userId": 5,
+      "stringFields": [
+        {
+          "name": "Country",
+          "value": ""
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [
+        {
+          "name": "Super old",
+          "value": false
+        }
+      ],
+      "dateFields": [],
+      "numberFields": [],
+      "like": {
+        "count": 2,
+        "usersId": [
+          5,
+          2
+        ]
+      },
+      "createdDate": "08.03.2024 14:00:55",
+      "id": 12
+    },
+    {
+      "name": "Stamps 3",
+      "tags": [],
+      "collectionId": 6,
+      "userId": 5,
+      "stringFields": [
+        {
+          "name": "Country",
+          "value": ""
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [
+        {
+          "name": "Super old",
+          "value": false
+        }
+      ],
+      "dateFields": [],
+      "numberFields": [],
+      "like": {
+        "count": 0,
+        "usersId": []
+      },
+      "createdDate": "08.03.2024 14:01:00",
+      "id": 13
+    },
+    {
+      "name": "Stamps 4",
+      "tags": [],
+      "collectionId": 6,
+      "userId": 5,
+      "stringFields": [
+        {
+          "name": "Country",
+          "value": ""
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [
+        {
+          "name": "Super old",
+          "value": false
+        }
+      ],
+      "dateFields": [],
+      "numberFields": [],
+      "like": {
+        "count": 0,
+        "usersId": []
+      },
+      "createdDate": "08.03.2024 14:01:05",
+      "id": 14
+    },
+    {
+      "name": "Stamps 5",
+      "tags": [],
+      "collectionId": 6,
+      "userId": 5,
+      "stringFields": [
+        {
+          "name": "Country",
+          "value": ""
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [
+        {
+          "name": "Super old",
+          "value": false
+        }
+      ],
+      "dateFields": [],
+      "numberFields": [],
+      "like": {
+        "count": 1,
+        "usersId": [
+          2
+        ]
+      },
+      "createdDate": "08.03.2024 14:01:11",
+      "id": 15
+    },
+    {
+      "name": "Stamps 6",
+      "tags": [],
+      "collectionId": 6,
+      "userId": 5,
+      "stringFields": [
+        {
+          "name": "Country",
+          "value": ""
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [
+        {
+          "name": "Super old",
+          "value": false
+        }
+      ],
+      "dateFields": [],
+      "numberFields": [],
+      "like": {
+        "count": 0,
+        "usersId": []
+      },
+      "createdDate": "08.03.2024 14:01:17",
+      "id": 16
+    },
+    {
+      "name": "Old fashion",
+      "tags": [
+        "books"
+      ],
+      "collectionId": 4,
+      "userId": 5,
+      "stringFields": [
+        {
+          "name": "Author",
+          "value": "Rt. Gytu"
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [
+        {
+          "name": "Created",
+          "value": "2018-06-07"
+        }
+      ],
+      "numberFields": [],
+      "like": {
+        "count": 0,
+        "usersId": []
+      },
+      "createdDate": "08.03.2024 15:24:02",
+      "id": 17
+    },
+    {
+      "name": "Coin trt 1",
+      "tags": [
+        "coins"
+      ],
+      "collectionId": 9,
+      "userId": 5,
+      "stringFields": [],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [
+        {
+          "name": "Count",
+          "value": "2"
+        }
+      ],
+      "like": {
+        "count": 1,
+        "usersId": [
+          5
+        ]
+      },
+      "createdDate": "13.03.2024 17:00:07",
+      "id": 18
+    },
+    {
+      "name": "Coin trt 2",
+      "tags": [
+        "coins"
+      ],
+      "collectionId": 9,
+      "userId": 5,
+      "stringFields": [],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [
+        {
+          "name": "Count",
+          "value": "3"
+        }
+      ],
+      "like": {
+        "count": 0,
+        "usersId": []
+      },
+      "createdDate": "13.03.2024 17:00:31",
+      "id": 19
+    },
+    {
+      "name": "History",
+      "tags": [
+        "books"
+      ],
+      "collectionId": 10,
+      "userId": 1,
+      "stringFields": [],
+      "textareaFields": [
+        {
+          "name": "About book",
+          "value": "About history book"
+        }
+      ],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [],
+      "like": {
+        "count": 1,
+        "usersId": [
+          2
+        ]
+      },
+      "createdDate": "13.03.2024 21:46:10",
+      "id": 20
+    },
+    {
+      "name": "Biology",
+      "tags": [
+        "books",
+        "biology"
+      ],
+      "collectionId": 10,
+      "userId": 2,
+      "stringFields": [],
+      "textareaFields": [
+        {
+          "name": "About book",
+          "value": "About biology book"
+        }
+      ],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [],
+      "like": {
+        "count": 0,
+        "usersId": []
+      },
+      "createdDate": "13.03.2024 21:47:17",
+      "id": 21
+    },
+    {
+      "name": "Fix",
+      "tags": [
+        "retro"
+      ],
+      "collectionId": 1,
+      "userId": 1,
+      "stringFields": [
+        {
+          "name": "Author",
+          "value": "Gr. Hop"
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [
+        {
+          "name": "year",
+          "value": "2004"
+        }
+      ],
+      "like": {
+        "count": 1,
+        "usersId": [
+          4
+        ]
+      },
+      "createdDate": "13.03.2024 22:24:46",
+      "id": 22
+    },
+    {
+      "name": "History book",
+      "tags": [
+        "history"
+      ],
+      "collectionId": 10,
+      "userId": 1,
+      "stringFields": [],
+      "textareaFields": [
+        {
+          "name": "About book",
+          "value": "About history book"
+        }
+      ],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [],
+      "like": {
+        "count": 0,
+        "usersId": []
+      },
+      "createdDate": "13.03.2024 22:38:28",
+      "id": 23
+    },
+    {
+      "name": "New year postcard one",
+      "tags": [
+        "postcards",
+        "holiday_cards"
+      ],
+      "collectionId": 11,
+      "userId": 4,
+      "stringFields": [],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [],
+      "numberFields": [
+        {
+          "name": "Quantity",
+          "value": "6"
+        }
+      ],
+      "like": {
+        "count": 0,
+        "usersId": []
+      },
+      "createdDate": "16.03.2024 22:37:33",
+      "id": 24
+    },
+    {
+      "name": "Berry",
+      "tags": [
+        "stamps",
+        "stamp_collecting"
+      ],
+      "collectionId": 6,
+      "userId": 4,
+      "stringFields": [
+        {
+          "name": "Country",
+          "value": "USA"
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [
+        {
+          "name": "Super old",
+          "value": true
+        }
+      ],
+      "dateFields": [],
+      "numberFields": [],
+      "like": {
+        "count": 2,
+        "usersId": [
+          2,
+          1
+        ]
+      },
+      "createdDate": "16.03.2024 22:50:46",
+      "id": 25
+    },
+    {
+      "name": "Tonny",
+      "tags": [
+        "commemorative_stamps",
+        "numismatics"
+      ],
+      "collectionId": 6,
+      "userId": 4,
+      "stringFields": [
+        {
+          "name": "Country",
+          "value": "Germany"
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [
+        {
+          "name": "Super old",
+          "value": false
+        }
+      ],
+      "dateFields": [],
+      "numberFields": [],
+      "like": {
+        "count": 0,
+        "usersId": []
+      },
+      "createdDate": "16.03.2024 22:54:19",
+      "id": 26
+    },
+    {
+      "name": "",
+      "tags": [],
+      "collectionId": 5,
+      "userId": 1,
+      "stringFields": [],
+      "textareaFields": [],
+      "checkboxFields": [],
+      "dateFields": [
+        {
+          "name": "year",
+          "value": ""
+        }
+      ],
+      "numberFields": [],
+      "like": {
+        "count": 0,
+        "usersId": []
+      },
+      "createdDate": "18.03.2024 16:48:44",
+      "id": 35
+    },
+    {
+      "name": "jhvj",
+      "tags": [],
+      "collectionId": 2,
+      "userId": 1,
+      "stringFields": [
+        {
+          "name": "Author",
+          "value": ""
+        }
+      ],
+      "textareaFields": [],
+      "checkboxFields": [
+        {
+          "name": "New",
+          "value": false
+        }
+      ],
+      "dateFields": [],
+      "numberFields": [
+        {
+          "name": "Number of pages",
+          "value": ""
+        }
+      ],
+      "like": {
+        "count": 0,
+        "usersId": []
+      },
+      "createdDate": "18.03.2024 17:07:42",
+      "id": 36
+    }
+  ],
+  "comments": [
+    {
+      "text": "Wonderful collection",
+      "itemId": 1,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "text": "Second comment",
+      "itemId": 1,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "text": "ask",
+      "itemId": 4,
+      "userId": 5,
+      "id": 3
+    },
+    {
+      "text": "Great idea",
+      "itemId": 2,
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "text": "some comment",
+      "itemId": 1,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "text": "Great book!",
+      "itemId": 22,
+      "userId": 4,
+      "id": 6
+    },
+    {
+      "text": "Berry stamps great!",
+      "itemId": 25,
+      "userId": 2,
+      "id": 7
+    },
+    {
+      "text": "Super!",
+      "itemId": 1,
+      "userId": 2,
+      "id": 8
+    },
+    {
+      "text": "dc",
+      "itemId": 1,
+      "userId": 2,
+      "id": 9
+    }
+  ]
+}
