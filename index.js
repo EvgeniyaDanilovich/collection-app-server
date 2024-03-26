@@ -71,6 +71,35 @@ server.use('/socket', (req, res, next) => {
     });
 });
 
+server.post('/signup', (req, res) => {
+    try {
+        const { username, password, email } = req.body;
+        const db = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'db.json'), 'UTF-8'));
+        const { users = [] } = db;
+
+        const existingUser = users.find((user) => user.username === username);
+        if (existingUser) {
+            return res.status(400).json({ message: 'User with this name already exists' });
+        }
+
+        const existingEmail = users.find((user) => user.email === email);
+        if (existingEmail) {
+            return res.status(400).json({ message: 'User with this email already exists' });
+        }
+
+        const maxUserId = users.reduce((maxId, user) => Math.max(maxId, user.id), 0);
+        const userId = maxUserId + 1;
+
+        const newUser = { id: userId, username, email, password, status: 'Active', admin: false };
+        users.push(newUser);
+        fs.writeFileSync(path.resolve(__dirname, 'db.json'), JSON.stringify({ ...db, users }));
+
+        return res.status(201).json(newUser);
+    } catch (error) {
+        return res.status(500).json({ message: 'Something went wrong' });
+    }
+});
+
 // Эндпоинт для логина
 server.post('/login', (req, res) => {
     try {
